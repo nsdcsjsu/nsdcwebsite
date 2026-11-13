@@ -79,10 +79,6 @@ Interested in sponsoring? Email us at nsdcsjsu@gmail.com.
 - Code of Conduct: [MLH Code of Conduct](https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md)
 
 
-## 🤝 Contributing
-
-Found a typo or have an improvement for the site? Open an issue or submit a pull request.
-
 ## 👥 Organizers
 
 Built and organized by National Student Data Corps at San Jose State University.
