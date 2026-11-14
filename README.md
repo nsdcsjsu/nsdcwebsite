@@ -24,8 +24,7 @@ AI Genesis Hacks is a one-day, in-person hackathon at San Jose State University.
 
 ## 🕘 Schedule
 
-8:00 AM: Registration and check-in
-8:30 AM: Breakfast, networking, and team formation
+8:30 AM: Registration and check-in, Breakfast, networking, and team formation
 9:00 AM: Welcome, rules, and hackathon theme
 9:25 AM: Guest speaker
 9:50 AM: Final team setup
