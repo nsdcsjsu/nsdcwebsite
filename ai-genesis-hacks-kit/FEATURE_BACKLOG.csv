@@ -1,0 +1,21 @@
+ID,Feature,Priority,Owner,Acceptance criteria,Dependency
+F01,Hero/About,P0,Development + Marketing,"Event name, tagline, concise summary, date, venue status, prominent Luma CTA","Approved event copy, branding"
+F02,Responsive navigation,P0,Development,"Accessible links to sections; desktop navigation and mobile menu, no overlap",Sitemap
+F03,At-a-glance event information,P0,Events + Development,"Free, 18+, team maximum four, event date, in-person format; venue approval appropriately stated",Venue confirmation
+F04,Track cards,P0,Tech education + Development,Exactly Impact/Security/Intelligence; accurate descriptive copy,Approved track content
+F05,Schedule timeline,P0,Events + Development,"All 16 local-time entries, strictly ordered, correct submission deadline",Final master schedule
+F06,Awards,P0,Events + Development,Four README categories; omit unconfirmed monetary values,Prize confirmation
+F07,Registration links,P0,Development,Working https://luma.com/sxb7ae0h link in hero and reachable navigation,Luma URL
+F08,Sponsors and inquiry,P0,Marketing + Development,Appropriate placeholder plus mailto; logo cards when approved,Sponsors/assets
+F09,FAQ,P0,Events + Development,"Only verified answers for cost, eligibility, teams, submissions, etc.; accessible toggles if accordion",Approved FAQ copy
+F10,Rules and conduct,P0,Events + Development,Rules coming-soon state not clickable; correctly labeled policy link,Rules doc and MLH applicability approval
+F11,Organizers,P0,President + Development,NSDC attribution; extensible vetted organizer roster,Approved names/assets
+F12,Footer/contact,P0,Development,"Correct email, Discord link, organizer attribution, important links",Known contacts
+F13,Responsive visual design,P0,Marketing + Development,"No clipping, text collisions, gradients lost, button overlap from 320px up; focus/reduced motion",Brand assets
+F14,SEO/sharing & stability,P0,Development,HTML title/description/OG/favicon; reliable build; no console exceptions,Approved naming/images
+F15,Post-event results,P1,Events + Development,Approved winner names and Devpost links appear only after event,Results verified
+F16,Optional animation/countdown,P1,Development,Polished but nonblocking; honors prefers-reduced-motion,Design approval
+F17,Calendar download,P1,Development,ICS event date and times use America/Los_Angeles; explicit timezone,Confirmed dates
+F18,Enhanced sponsor/organizer cards,P1,Marketing + Development,"Consistent logo sizing, alt text, correct external destinations",Approved assets
+F19,Nontechnical content editing,P2,Leadership,CMS proposal only after authoring-frequency need established,Stakeholder approval
+F20,Custom accounts/judging/attendance,P2,Leadership,Out of initial scope; new project proposal and security/privacy review,Stakeholder approval

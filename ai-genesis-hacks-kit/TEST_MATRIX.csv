@@ -1,0 +1,66 @@
+Test ID,Category,Feature ID,Priority,Method,Scenario,Expected outcome,Automatable,Release gate
+T001,content,F01,P0,E2E,Hero displays event title and tagline,AI Genesis Hacks and Impact. Security. Intelligence. visible,Yes,Yes
+T002,content,F01,P0,E2E,Event date accurate,"Saturday, February 13, 2027 shown",Yes,Yes
+T003,content,F03,P0,E2E,Eligibility is correct,18+ visible,Yes,Yes
+T004,content,F03,P0,E2E,Team max correct,Up to 4 members is stated,Yes,Yes
+T005,content,F03,P0,Manual,Venue status verified with events team,No unapproved claim of confirmed ballroom,No,Yes
+T006,content,F04,P0,Unit,Track inventory exact,"Impact, Security, Intelligence exactly once",Yes,Yes
+T007,content,F04,P0,Manual,Track copy corresponds to README,Examples and wording accurate,No,Yes
+T008,content,F05,P0,Unit,All schedule entries exist,"Exactly 16 unique, ordered entries",Yes,Yes
+T009,content,F05,P0,Unit,Deadline accurately represented,17:00 submissions due,Yes,Yes
+T010,content,F05,P0,E2E,Schedule visual text,Starts 8:30 AM and ends 7:30 PM,Yes,Yes
+T011,content,F05,P0,Manual,Schedule versus approved event master,Every time and label matches final doc,No,Yes
+T012,content,F06,P0,Unit,Award categories exact,Four approved categories,Yes,Yes
+T013,content,F06,P0,Manual,Prize amounts not invented,Unconfirmed $5k not published,No,Yes
+T014,content,F08,P0,Unit,No invented sponsor names,Sponsor array empty unless approved,Yes,Yes
+T015,content,F08,P0,E2E,Sponsor contact accessible,nsdcsjsu@gmail.com present,Yes,Yes
+T016,content,F09,P0,Manual,FAQ accuracy,"No speculative speakers, judges, schedule or venue promises",No,Yes
+T017,content,F10,P0,E2E,Rules placeholder behaves correctly,No active dead-link/button; explains availability,Yes,Yes
+T018,content,F10,P0,E2E,Code of conduct points to documented policy,Correct external URL,Yes,Yes
+T019,content,F10,P0,Manual,MLH policy adoption confirmed,No misleading MLH affiliation implied,No,Yes
+T020,content,F11,P0,Manual,Organizer attribution,NSDC at SJSU accurately represented,No,Yes
+T021,registration,F07,P0,E2E,Hero CTA uses confirmed URL,https://luma.com/sxb7ae0h,Yes,Yes
+T022,registration,F07,P0,E2E,Navigation registration reachable,Registration accessible from primary navigation,Yes,Yes
+T023,registration,F07,P0,Manual,Luma page is live and correct,Correct event and no unexpected fees,No,Yes
+T024,links,F12,P0,E2E,Discord link accurate,https://discord.gg/qeuDjHztQF,Yes,Yes
+T025,links,F12,P0,E2E,Contact mailto accurate,mailto:nsdcsjsu@gmail.com,Yes,Yes
+T026,links,F14,P0,E2E,No href # or empty links,Every active link has usable destination,Yes,Yes
+T027,links,F14,P0,Manual,External link freshness,All external pages valid and approved,No,Yes
+T028,navigation,F02,P0,E2E,Section anchors exist,All defined ids and content accessible,Yes,Yes
+T029,navigation,F02,P0,E2E,Click anchor updates location,Tracks navigation takes user to tracks,Yes,Yes
+T030,navigation,F02,P0,E2E,Mobile navigation open and close,Menu reachable with accessible name,Yes,Yes
+T031,navigation,F02,P0,Manual,Keyboard traversal,Logical focus order no traps,No,Yes
+T032,responsive,F13,P0,E2E,320px wide viewport,No horizontal scrolling or clipped CTAs,Yes,Yes
+T033,responsive,F13,P0,E2E,375px wide viewport,No horizontal scrolling or clipped CTAs,Yes,Yes
+T034,responsive,F13,P0,E2E,768px wide viewport,No horizontal overflow,Yes,Yes
+T035,responsive,F13,P0,E2E,1280px wide viewport,No horizontal overflow,Yes,Yes
+T036,responsive,F13,P0,Manual,Mobile gradient preserved,Background gradient visible on actual iOS/Android,No,Yes
+T037,responsive,F13,P0,Manual,Buttons do not overlap,Hero/register/mobile menu do not collide,No,Yes
+T038,responsive,F13,P0,Manual,Long text and enlarged fonts,200% zoom works without clipping,No,Yes
+T039,responsive,F13,P0,Manual,Landscape and portrait,"Buttons reachable, no scroll trap",No,Yes
+T040,accessibility,F13,P0,Axe+Playwright,Automated WCAG 2.1 A/AA scans,No detectable violations,Yes,Yes
+T041,accessibility,F02,P0,Manual,Focus visibility,Clear focus indicator throughout,No,Yes
+T042,accessibility,F02,P0,Manual,Keyboard controls,Navigation and accordions operable,No,Yes
+T043,accessibility,F13,P0,Manual,Reduced-motion setting,Nonessential animation reduced or removed,No,Yes
+T044,accessibility,F13,P0,Manual,Contrast on gradient backgrounds,Readable foreground text and CTA contrast,No,Yes
+T045,accessibility,F18,P1,Manual,Sponsor graphic alt text,"Meaningful logos labeled, decorative assets ignored",No,Yes
+T046,performance,F14,P0,Lighthouse CI/manual,Mobile performance target,Performance >=85 representative repeat tests,Partial,Yes
+T047,performance,F14,P0,Lighthouse CI/manual,Core Web Vitals lab targets,"LCP <=2.5s, CLS <=0.1",Partial,Yes
+T048,performance,F14,P0,Manual,Image delivery,"Responsive sizing, modern format, lazy offscreen images",No,Yes
+T049,performance,F16,P1,Manual,Animation performance,No blocking main CTA; smooth on midrange phone,No,Yes
+T050,seo,F14,P0,E2E,Document title,Descriptive AI Genesis Hacks title,Yes,Yes
+T051,seo,F14,P0,E2E,Description metadata,Nonempty summary,Yes,Yes
+T052,seo,F14,P0,Manual,Open Graph sharing preview,Looks right in Discord/social platforms,No,Yes
+T053,seo,F14,P0,Manual,Static content crawlability,"Important event details indexable, prerender if warranted",No,Yes
+T054,security,F14,P0,Manual,No credentials in client assets,No API keys or tokens committed or built into dist,No,Yes
+T055,security,F14,P0,Manual,Safe external linking,Rel noopener noreferrer if target blank,No,Yes
+T056,security,F14,P0,Manual,Dependencies scanned,No unresolved critical vulnerability,No,Yes
+T057,deployment,F14,P0,CI,Vite production build,npm run build succeeds,Yes,Yes
+T058,deployment,F14,P0,CI,Unit and E2E suites pass,No P0 tests fail,Yes,Yes
+T059,deployment,F14,P0,Manual,Cloudflare project under NSDC,"Access control, ownership confirmed",No,Yes
+T060,deployment,F14,P0,E2E,Production smoke on pages.dev,"Homepage, metadata, links render",Yes,Yes
+T061,deployment,F14,P0,Manual,PR preview deployment,Non-main branch renders same content,No,Yes
+T062,deployment,F14,P0,Manual,Rollback tested,Earlier deployment can be restored,No,Yes
+T063,operations,F15,P1,Manual,Approved results workflow,No winners until verified,No,No
+T064,operations,F14,P0,Manual,Event-day checks,Luma/Discord/Devpost links and schedule verified,No,Yes
+T065,operations,F14,P0,Manual,Team handoff,Another contributor can modify content via PR,No,Yes
