@@ -1,0 +1,9 @@
+{
+  "name": "AI Genesis Hacks 2027",
+  "short_name": "Genesis Hacks",
+  "description": "A free, one-day in-person hackathon at San Jose State University.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#070b14",
+  "theme_color": "#070b14"
+}
