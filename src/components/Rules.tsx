@@ -10,7 +10,7 @@ export function Rules() {
       title="Play fairly. Full rules are still being finalized."
     >
       <div className="grid gap-4 lg:grid-cols-2">
-        <article className="rounded-3xl border border-line bg-panel/80 p-6">
+        <article className="bezel rounded-2xl border border-line bg-panel/80 p-6">
           <h3 className="font-display text-xl font-bold text-snow">Event rules</h3>
           {event.rulesUrl ? (
             <ExternalLink href={event.rulesUrl} className="mt-4 inline-flex font-semibold text-cta">
@@ -23,7 +23,7 @@ export function Rules() {
             </p>
           )}
         </article>
-        <article className="rounded-3xl border border-line bg-panel/80 p-6">
+        <article className="bezel rounded-2xl border border-line bg-panel/80 p-6">
           <h3 className="font-display text-xl font-bold text-snow">Code of Conduct</h3>
           <p className="mt-4 text-fog">
             Participants are expected to follow the MLH Code of Conduct as this event&apos;s policy.

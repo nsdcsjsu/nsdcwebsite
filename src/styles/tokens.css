@@ -1,16 +1,22 @@
 @theme {
-  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
-  --color-void: #070b14;
-  --color-abyss: #0b1220;
-  --color-panel: #10192a;
-  --color-snow: #f3f6fb;
-  --color-fog: #b7c3d6;
-  --color-line: rgb(255 255 255 / 0.12);
-  --color-impact: #3ee0a4;
-  --color-security: #f5c14a;
-  --color-intelligence: #8b9cff;
-  --color-cta: #7ee0ff;
-  --color-cta-ink: #04212c;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cinzel", ui-serif, Palatino, serif;
+  --color-void: #07111e;
+  --color-abyss: #0a1830;
+  --color-panel: #10203c;
+  --color-snow: #f4f7fb;
+  --color-fog: #c5d0e0;
+  --color-line: rgb(232 196 106 / 0.28);
+  --color-gold: #e8c46a;
+  --color-deep-gold: #a67c2d;
+  --color-silver: #d8dee8;
+  --color-sapphire: #3b82f6;
+  --color-amber: #e8a317;
+  --color-ice: #9fd4ff;
+  --color-impact: #3b82f6;
+  --color-security: #e8a317;
+  --color-intelligence: #9fd4ff;
+  --color-cta: #e8c46a;
+  --color-cta-ink: #07111e;
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 }

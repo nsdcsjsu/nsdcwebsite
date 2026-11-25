@@ -21,7 +21,7 @@ export function Timeline() {
               <p className="pt-3 text-sm font-semibold whitespace-nowrap text-cta">
                 {formatTime12h(item.time)}
               </p>
-              <div className="min-w-0 rounded-2xl border border-line bg-panel/70 px-4 py-3">
+              <div className="bezel min-w-0 rounded-xl border border-line bg-panel/70 px-4 py-3">
                 <p className="font-medium text-snow">{item.activity}</p>
                 {isDeadline ? (
                   <p className="mt-1 text-xs tracking-wide text-security uppercase">Deadline</p>

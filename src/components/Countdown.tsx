@@ -56,7 +56,7 @@ export function Countdown() {
           {cells.map((cell) => (
             <div
               key={cell.label}
-              className="rounded-2xl border border-line bg-panel/70 px-2 py-3 text-center sm:px-3"
+              className="bezel rounded-xl border border-line bg-panel/70 px-2 py-3 text-center sm:px-3"
             >
               <dt className="text-[0.65rem] tracking-[0.14em] text-fog uppercase">{cell.label}</dt>
               <dd className="mt-1 font-display text-xl font-bold text-snow sm:text-2xl">

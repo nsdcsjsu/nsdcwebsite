@@ -27,7 +27,7 @@ export function About() {
     >
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {facts.map((fact) => (
-          <article key={fact.label} className="rounded-2xl border border-line bg-panel/80 p-5">
+          <article key={fact.label} className="bezel rounded-xl border border-line bg-panel/80 p-5">
             <p className="text-xs tracking-[0.16em] text-fog uppercase">{fact.label}</p>
             <p className="mt-2 text-lg font-semibold text-snow">{fact.value}</p>
           </article>
@@ -35,7 +35,7 @@ export function About() {
       </div>
       <ul className="mt-8 grid gap-3 sm:grid-cols-3">
         {event.benefits.map((benefit) => (
-          <li key={benefit} className="rounded-2xl border border-dashed border-line px-4 py-4 text-sm text-fog">
+          <li key={benefit} className="rounded-xl border border-dashed border-line px-4 py-4 text-sm text-fog">
             {benefit}
           </li>
         ))}

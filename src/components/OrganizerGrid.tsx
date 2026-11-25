@@ -9,7 +9,7 @@ export function OrganizerGrid() {
       title="Built by students, for students."
       description={`${event.organizerName} organizes AI Genesis Hacks. Individual organizer names will be added here as they are approved.`}
     >
-      <div className="rounded-3xl border border-line bg-panel/80 p-6 sm:p-8">
+      <div className="bezel rounded-2xl border border-line bg-panel/80 p-6 sm:p-8">
         <p className="font-display text-2xl font-bold text-snow">{event.organizerName}</p>
         <p className="mt-3 max-w-3xl text-fog">
           NSDC at SJSU runs this one-day hackathon. Contact the team at{' '}
@@ -26,7 +26,7 @@ export function OrganizerGrid() {
       ) : (
         <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {event.organizers.map((person) => (
-            <li key={person.name} className="rounded-2xl border border-line bg-panel p-5">
+            <li key={person.name} className="bezel rounded-xl border border-line bg-panel p-5">
               {person.image ? (
                 <img src={person.image} alt="" className="mb-3 h-16 w-16 rounded-full object-cover" />
               ) : null}
