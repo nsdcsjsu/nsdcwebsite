@@ -17,19 +17,19 @@ export function Hero() {
           <p className="max-w-full font-display text-xs font-semibold tracking-[0.16em] text-cta uppercase">
             {event.organizerName}
           </p>
-          <h1 className="mt-4 font-display text-[clamp(2.35rem,8vw,5.4rem)] leading-[0.95] font-extrabold tracking-tight text-snow">
+          <h1 className="mt-4 font-display text-[clamp(2.15rem,7.2vw,4.8rem)] leading-[0.98] font-bold tracking-tight text-snow">
             {event.name}
           </h1>
-          <p className="mt-5 font-display text-lg font-semibold text-impact sm:text-2xl">
+          <p className="mt-5 bg-linear-to-r from-impact to-cta bg-clip-text font-display text-lg font-semibold text-transparent sm:text-2xl">
             {event.tagline}
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-fog sm:text-lg">{event.summary}</p>
           <dl className="mt-6 grid gap-3 text-sm sm:grid-cols-2">
-            <div className="rounded-2xl border border-line bg-panel/70 p-4">
+            <div className="bezel rounded-xl border border-line bg-panel/70 p-4">
               <dt className="text-fog">Date</dt>
               <dd className="mt-1 font-medium text-snow">{formatDisplayDate(event.date)}</dd>
             </div>
-            <div className="rounded-2xl border border-line bg-panel/70 p-4">
+            <div className="bezel rounded-xl border border-line bg-panel/70 p-4">
               <dt className="text-fog">Venue</dt>
               <dd className="mt-1 font-medium wrap-break-word text-snow">{venueStatus}</dd>
             </div>
@@ -43,13 +43,13 @@ export function Hero() {
             </ExternalLink>
             <ExternalLink
               href={event.discordUrl}
-              className="inline-flex items-center justify-center rounded-full border border-line bg-white/5 px-6 py-3 text-center font-semibold text-snow transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-full border border-cta/45 bg-white/5 px-6 py-3 text-center font-semibold text-snow transition hover:bg-white/10"
             >
               Join Discord
             </ExternalLink>
             <a
               href="/ai-genesis-hacks.ics"
-              className="inline-flex items-center justify-center rounded-full border border-line px-6 py-3 text-center font-semibold text-fog transition hover:bg-white/5 hover:text-snow"
+              className="inline-flex items-center justify-center rounded-full border border-cta/45 px-6 py-3 text-center font-semibold text-fog transition hover:bg-white/5 hover:text-snow"
             >
               Add to calendar
             </a>

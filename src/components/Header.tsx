@@ -62,7 +62,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-line bg-void/80 backdrop-blur-xl">
       <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6">
         <div className="flex items-center gap-2 sm:gap-3">
-          <a href="/" className="min-w-0 shrink-0" aria-label="AI Genesis Hacks home">
+          <a href="/" className="flex min-w-0" aria-label="AI Genesis Hacks home">
             <Logo />
           </a>
           <ExternalLink
