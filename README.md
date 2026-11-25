@@ -81,5 +81,11 @@ Interested in sponsoring? Email us at nsdcsjsu@gmail.com.
 ## 👥 Organizers
 
 Built and organized by National Student Data Corps at San Jose State University.
-(scope to add more organizers in the list) 
+(scope to add more organizers in the list)
+
+---
+
+## Development
+
+The site is a React + Vite + TypeScript app with Tailwind CSS, hosted as a static Cloudflare Pages project. Event copy is edited in `src/data/event.ts`. See `DEVELOPMENT.md` for scripts, QA, and the release workflow. 
 
