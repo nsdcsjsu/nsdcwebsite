@@ -1,0 +1,16 @@
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --color-void: #070b14;
+  --color-abyss: #0b1220;
+  --color-panel: #10192a;
+  --color-snow: #f3f6fb;
+  --color-fog: #b7c3d6;
+  --color-line: rgb(255 255 255 / 0.12);
+  --color-impact: #3ee0a4;
+  --color-security: #f5c14a;
+  --color-intelligence: #8b9cff;
+  --color-cta: #7ee0ff;
+  --color-cta-ink: #04212c;
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
